@@ -1,4 +1,4 @@
-package uk.co.danielbryant.djshopping.Stockmanager;
+package uk.co.danielbryant.djshopping.stockmanager;
  
 import java.util.Date;
 import org.springframework.web.bind.annotation.GetMapping;
