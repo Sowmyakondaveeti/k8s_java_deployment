@@ -25,7 +25,7 @@
             <artifactId>guice</artifactId>
             <version>${guice.version}</version>
         </dependency>
-         <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
