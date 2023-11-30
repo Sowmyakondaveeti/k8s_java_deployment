@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class healthcheck {
     @GetMapping("/healthcheckPD")
-    public String example() {
+    public String healthcheck() {
         return "Hello User this response from Productcatalogue !! " + new Date();
     }
 }
