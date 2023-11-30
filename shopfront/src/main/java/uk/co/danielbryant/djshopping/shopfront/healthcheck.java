@@ -1,13 +1,13 @@
-// package com.example.springbootmanagementexample;
+package uk.co.danielbryant.djshopping.shopfront;
  
-// import java.util.Date;
-// import org.springframework.web.bind.annotation.GetMapping;
-// import org.springframework.web.bind.annotation.RestController;
+import java.util.Date;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
  
-// @RestController
-// public class SimpleRestController {
-//     @GetMapping("/helthcheck")
-//     public String example() {
-//         return "Hello User !! " + new Date();
-//     }
-// }
+@RestController
+public class healthcheck {
+    @GetMapping("/healthcheckSF")
+    public String example() {
+        return "Hello User this response from ShopFront !! " + new Date();
+    }
+}
